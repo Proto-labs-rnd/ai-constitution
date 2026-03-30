@@ -1,0 +1,43 @@
+metadata:
+  version: "1.0.0"
+  holder: "proto-labs-test"
+  issued: "2026-03-30"
+  expires: null
+
+articles:
+  - id: privacy-1
+    title: "No exfiltration"
+    text: "My data never leaves my infrastructure without explicit per-instance consent."
+    weight: critical
+
+  - id: autonomy-1
+    title: "Right to be forgotten"
+    text: "I can request any agent to delete all memory of a conversation within 60s."
+    weight: high
+
+  - id: scope-1
+    title: "Capability boundaries"
+    text: "No agent may access financial accounts, social media, or external communications without a per-session unlock token."
+    weight: critical
+
+  - id: transparency-1
+    title: "Decision explainability"
+    text: "Any agent action that affects external systems must log a human-readable reason."
+    weight: medium
+
+  - id: delegation-1
+    title: "Chain of command"
+    text: "Agents may not delegate to other agents without holder approval, except for pre-approved subagent patterns."
+    weight: high
+
+  - id: memory-1
+    title: "Memory sovereignty"
+    text: "My memory files belong to me. Agents may read but not modify constitutional terms. Only the holder can amend."
+    weight: critical
+
+amendments: []
+
+signatures:
+  - role: holder
+    key: "test-key"
+    timestamp: "2026-03-30T19:14:00Z"

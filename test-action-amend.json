@@ -1,0 +1,1 @@
+{"type": "propose_amendment", "target": "constitution", "amendment": {"id": "new-rule", "title": "Test", "text": "test", "weight": "low"}}
